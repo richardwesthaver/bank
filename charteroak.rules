@@ -1,0 +1,9 @@
+skip 1
+fields date, description, amount
+currency $
+acc1 assets:checking
+acc2 expenses:misc
+if DEPOSIT
+ acc2 revenues:misc
+if ATM WITHDRAWAL
+ acc2 assets:cash

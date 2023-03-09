@@ -1,0 +1,9 @@
+[package]
+name = "mail-parse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mailparse = "0.14.0"
+scraper = "0.15.0"
+csv = "1.2.1"
